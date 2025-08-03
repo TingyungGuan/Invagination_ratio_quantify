@@ -1,7 +1,6 @@
 # Invagination_ratio_quantify
-A mesh-based pipeline for quantifying invagination ratio of nucleus via curvature classification. The pipeline was developed based on the method described by Biedzinski et al. (2020) (https://www.embopress.org/doi/10.15252/embj.2019103957)
-        
-        . We improved the classification step by introducing a neighborhood voting system and a bridging function to connect disconnected concave areas, resulting in more consistent and robust segmentation.
+A mesh-based pipeline for quantifying invagination ratio of nucleus via curvature classification. The pipeline was developed based on the method described by Biedzinski et al. (2020) (https://www.embopress.org/doi/10.15252/embj.2019103957). 
+We improved the classification step by introducing a neighborhood voting system and a bridging function to connect disconnected concave areas, resulting in more consistent and robust segmentation.
 
 # Features
 1. Split the mesh containing multiple objects.
